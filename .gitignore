@@ -1,0 +1,57 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter/IPython notebooks
+*.ipynb_checkpoints
+
+# Environment files
+.env
+*.env
+
+# VSCode settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs and dumps
+*.log
+*.sqlite3
+*.db
+*.pid
+*.csv
+*.json
+
+# Playwright specific
+playwright-report/
+test-results/
+*.har
+
+# Python virtual environment
+venv/
+env/
+.scrapper/
+.scraping/
+scrapper/
+scraping/
+lib/
+bin/
+Include/
+Scripts/
+
+# IDE config
+.idea/
+*.iml
+
+# MongoDB dump or exports
+dump/
+*.bson
+*.wt
+*.snappy
